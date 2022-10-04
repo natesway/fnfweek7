@@ -39,8 +39,8 @@ build_script:
   - haxelib run lime build html5
 
 after_build:
-  - tar -cvf KadeEngine-Linux.tar -C /home/appveyor/projects/kade-engine-linux/export/release/linux/bin .
+  - tar -cvf KadeEngine-html5.tar -C /home/appveyor/projects/kade-engine-linux/export/release/html5/bin .
 
 artifacts:
-- path: KadeEngine-Linux.tar
-  name: Kade Engine for Linux
+- path: KadeEngine-html5.tar
+  name: Kade Engine for html5
