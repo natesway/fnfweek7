@@ -1,4 +1,3 @@
-version: '{build}'
 image: Ubuntu2004
 environment:
   global:
